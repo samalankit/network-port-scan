@@ -1,5 +1,5 @@
 # Nmap 7.95 scan initiated Mon Aug  4 06:26:45 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN scan_results.txt 192.168.0.x/24
-Nmap scan report for 192.168.0.x
+Nmap scan report for 192.168.1.x
 Host is up (0.00044s latency).
 Not shown: 995 closed tcp ports (reset)
 PORT      STATE    SERVICE
@@ -10,15 +10,15 @@ PORT      STATE    SERVICE
 49152/tcp open     unknown
 MAC Address: 0C:xx:63:A5:0E:3A (TP-Link Technologies)
 
-Nmap scan report for 192.168.0.x
+Nmap scan report for 192.168.1.x
 Host is up (0.00066s latency).
-All 1000 scanned ports on 192.168.0.101 are in ignored states.
+All 1000 scanned ports on 192.168.1.x are in ignored states.
 Not shown: 1000 filtered tcp ports (no-response)
 MAC Address: 3C:xx:6A:D5:A8:B9 (TP-Link Technologies)
 
 Nmap scan report for 192.168.0.x
 Host is up (0.00023s latency).
-All 1000 scanned ports on 192.168.0.103 are in ignored states.
+All 1000 scanned ports on 192.168.1.x are in ignored states.
 Not shown: 1000 filtered tcp ports (no-response)
 MAC Address: C0:xx:BA:21:40:49 (Dell)
 
@@ -27,5 +27,6 @@ Host is up (0.0000020s latency).
 Not shown: 999 closed tcp ports (reset)
 PORT   STATE SERVICE
 22/tcp open  ssh
+
 
 # Nmap done at Mon Aug  4 06:26:53 2025 -- 256 IP addresses (4 hosts up) scanned in 8.47 seconds
